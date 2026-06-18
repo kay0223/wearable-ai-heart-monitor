@@ -1,7 +1,5 @@
 # Results
 
-Key figures from the modelling and evaluation pipeline in [`../Research_project.ipynb`](../research_project.ipynb).
-
 | File | What it shows | Why it matters |
 |------|---------------|----------------|
 | `class_distribution.png` | Count of beats per AAMI class (N, SVEB, VEB, F, Q) | Confirms the heavy class imbalance (>70% Normal) that drives the evaluation strategy |
