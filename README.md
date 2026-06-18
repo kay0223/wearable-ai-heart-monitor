@@ -11,7 +11,7 @@ Machine-learning and deep-learning models for detecting cardiac anomalies in ECG
 This was a five-person group project. **My individual contribution covered the modelling, evaluation and research-design components:**
 
 - Designed the **research methodology and evaluation framework** for comparing AI models against rule-based baselines.
-- Built and benchmarked the **machine-learning pipeline** end to end (see [`research_project.ipynb`](research_project.ipynb)): data preparation, model training, evaluation and visualisation.
+- Built and benchmarked the **machine-learning pipeline** end to end (see [`Research_project.ipynb`](research_project.ipynb)): data preparation, model training, evaluation and visualisation.
 - Designed and analysed the **user survey** (descriptive statistics, chi-square / cross-tabulation, and thematic analysis of open-ended responses) and translated the findings into concrete model requirements.
 
 Teammates contributed the literature review, ethics, budget/timeline and parts of the written proposal.
