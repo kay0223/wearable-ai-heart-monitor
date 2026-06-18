@@ -11,7 +11,7 @@ Machine-learning and deep-learning models for detecting cardiac anomalies in ECG
 This was a five-person group project. **My individual contribution covered the modelling, evaluation and research-design components:**
 
 - Designed the **research methodology and evaluation framework** for comparing AI models against rule-based baselines.
-- Built and benchmarked the **machine-learning pipeline** end to end (see [`notebooks/`](notebooks/)): data preparation, model training, evaluation and visualisation.
+- Built and benchmarked the **machine-learning pipeline** end to end (see [`research_project.ipynb`](research_project.ipynb)): data preparation, model training, evaluation and visualisation.
 - Designed and analysed the **user survey** (descriptive statistics, chi-square / cross-tabulation, and thematic analysis of open-ended responses) and translated the findings into concrete model requirements.
 
 Teammates contributed the literature review, ethics, budget/timeline and parts of the written proposal.
@@ -64,9 +64,9 @@ These thresholds feed directly into how alert operating points (and smoothing/de
 
 ```
 .
-├── notebooks/        # Jupyter notebook(s): full modelling & evaluation pipeline
-├── results/          # Saved plots (class distribution, ROC/PR, confusion matrix, calibration)
-├── requirements.txt  # Python dependencies
+├── research_project.ipynb   # Full modelling & evaluation pipeline (main notebook)
+├── results/                 # Saved plots (class distribution, ROC/PR, confusion matrix, calibration)
+├── requirements.txt         # Python dependencies
 ├── LICENSE
 └── README.md
 ```
@@ -91,7 +91,7 @@ python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\act
 pip install -r requirements.txt
 
 # Launch the notebook
-jupyter notebook notebooks/
+jupyter notebook research_project.ipynb
 ```
 
 > The notebook includes a `FAST` flag that subsamples the data for a quick end-to-end run; set it to `False` and increase epochs for full training.
@@ -105,4 +105,3 @@ Released under the [MIT License](LICENSE).
 ## Contact
 
 **Kay Jiang** · [kay0223@gmail.com](mailto:kay0223@gmail.com) · [LinkedIn](https://www.linkedin.com/in/kay-jiang-10306480/)
-
