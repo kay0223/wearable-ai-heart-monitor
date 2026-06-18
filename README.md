@@ -2,7 +2,7 @@
 
 Machine-learning and deep-learning models for detecting cardiac anomalies in ECG signals, built as a data-science research project on the **MIT-BIH Arrhythmia** benchmark. The work pairs a model-benchmarking pipeline (classical + deep learning) with a user survey that grounds the model's design choices in real patient, caregiver and clinician needs.
 
-> Academic project - *MDS606 Data Science Research & Ethics*, Sydney Polytechnic Institute (2025). Group research proposal; this repository focuses on the modelling and evaluation work.
+> Academic project — *MDS606 Data Science Research & Ethics*, Sydney Polytechnic Institute (2025). Group research proposal; this repository focuses on the modelling and evaluation work.
 
 ---
 
@@ -11,7 +11,7 @@ Machine-learning and deep-learning models for detecting cardiac anomalies in ECG
 This was a five-person group project. **My individual contribution covered the modelling, evaluation and research-design components:**
 
 - Designed the **research methodology and evaluation framework** for comparing AI models against rule-based baselines.
-- Built and benchmarked the **machine-learning pipeline** end to end (see [`Research_project.ipynb`](research_project.ipynb)): data preparation, model training, evaluation and visualisation.
+- Built and benchmarked the **machine-learning pipeline** end to end (see [`Research_project.ipynb`](Research_project.ipynb)): data preparation, model training, evaluation and visualisation.
 - Designed and analysed the **user survey** (descriptive statistics, chi-square / cross-tabulation, and thematic analysis of open-ended responses) and translated the findings into concrete model requirements.
 
 Teammates contributed the literature review, ethics, budget/timeline and parts of the written proposal.
@@ -64,7 +64,7 @@ These thresholds feed directly into how alert operating points (and smoothing/de
 
 ```
 .
-├── research_project.ipynb   # Full modelling & evaluation pipeline (main notebook)
+├── Research_project.ipynb   # Full modelling & evaluation pipeline (main notebook)
 ├── results/                 # Saved plots (class distribution, ROC/PR, confusion matrix, calibration)
 ├── requirements.txt         # Python dependencies
 ├── LICENSE
@@ -91,12 +91,13 @@ python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\act
 pip install -r requirements.txt
 
 # Launch the notebook
-jupyter notebook research_project.ipynb
+jupyter notebook Research_project.ipynb
 ```
 
 > The notebook includes a `FAST` flag that subsamples the data for a quick end-to-end run; set it to `False` and increase epochs for full training.
 
 ---
+
 
 ## License
 
