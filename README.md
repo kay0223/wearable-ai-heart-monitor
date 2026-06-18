@@ -98,11 +98,6 @@ jupyter notebook notebooks/
 
 ---
 
-## Team
-
-Group 1 — MDS606 Data Science Research & Ethics, Sydney Polytechnic Institute:
-Kay Jiang, Sharon Kandie, Julian David Ravelo Cuartas, Molly Cherotich, Zhibing Zheng.
-
 ## License
 
 Released under the [MIT License](LICENSE).
