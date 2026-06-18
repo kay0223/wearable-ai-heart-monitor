@@ -1,6 +1,6 @@
 # Results
 
-Key figures from the modelling and evaluation pipeline in [`../research_project.ipynb`](../research_project.ipynb).
+Key figures from the modelling and evaluation pipeline in [`../Research_project.ipynb`](../research_project.ipynb).
 
 | File | What it shows | Why it matters |
 |------|---------------|----------------|
