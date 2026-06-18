@@ -2,7 +2,7 @@
 
 Machine-learning and deep-learning models for detecting cardiac anomalies in ECG signals, built as a data-science research project on the **MIT-BIH Arrhythmia** benchmark. The work pairs a model-benchmarking pipeline (classical + deep learning) with a user survey that grounds the model's design choices in real patient, caregiver and clinician needs.
 
-> Academic project — *MDS606 Data Science Research & Ethics*, Sydney Polytechnic Institute (2025). Group research proposal; this repository focuses on the modelling and evaluation work.
+> Academic project — *MDS606 Data Science Research & Ethics*,(2025). Group research proposal; this repository focuses on the modelling and evaluation work.
 
 ---
 
